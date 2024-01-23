@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Yeseva One', serif;
+    box-sizing: border-box;
+    
+}
+
+
+main{
+    width: 100%;
+    height: 96vh;
+}
+
+main .landingpage{
+    background-image: url(../images/AnyConv.com__Başlıksız-22.webp);
+    background-size: 40%;
+    background-position: center top 20%;
+    background-repeat: no-repeat;
+}
+
+
+main .header{
+    font-family: 'Caveat', cursive;
+    width: auto;
+    height:100vh;
+    display: flex;
+}
+
+
+main .header ul{
+    margin: auto;
+}
+
+main .header ul li{
+   list-style: none;
+   display: inline;
+   margin: 0 4rem;
+}
+
+main .header li a{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    border-radius: 20px;
+    opacity: 0.5;
+    padding: 5px 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+main .header li a:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+footer p{
+    color: rgba(128, 128, 128, 0.626);
+    font-size: 13px;
+    text-align: center;
+}
