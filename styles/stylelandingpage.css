@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-body{
+body {
     width: auto;
     height: auto;
     margin: 0;
@@ -10,16 +10,16 @@ body{
     background-color: black;
     font-family: 'Yeseva One', serif;
     box-sizing: border-box;
-    
+
 }
 
 
-main{
+main {
     width: 100%;
     height: 96vh;
 }
 
-main .landingpage{
+main .landingpage {
     background-image: url(../images/AnyConv.com__Başlıksız-22.webp);
     background-size: 40%;
     background-position: center top 20%;
@@ -27,25 +27,25 @@ main .landingpage{
 }
 
 
-main .header{
+main .header {
     font-family: 'Caveat', cursive;
     width: auto;
-    height:100vh;
+    height: 100vh;
     display: flex;
 }
 
 
-main .header ul{
+main .header ul {
     margin: auto;
 }
 
-main .header ul li{
-   list-style: none;
-   display: inline;
-   margin: 0 4rem;
+main .header ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 4rem;
 }
 
-main .header li a{
+main .header li a {
     width: auto;
     height: auto;
     text-decoration: none;
@@ -59,18 +59,108 @@ main .header li a{
     transition: 1s ease;
 }
 
-main .header li a:hover{
+main .header li a:hover {
     opacity: 1;
 }
 
 
-
-
-
-
-
-footer p{
+footer p {
     color: rgba(128, 128, 128, 0.626);
     font-size: 13px;
     text-align: center;
+}
+
+footer p span {
+    color: #695757;
+}
+
+
+@media screen and (max-width:450px) {
+    body {
+        overflow: hidden;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    main .landingpage {
+        background-size: 100%;
+    }
+
+    main .landingpage .header {
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main .landingpage .header ul {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    main .landingpage .header ul li {
+        display: flex;
+        position: relative;
+        max-width: fit-content;
+        margin: 150px 0 0 0;
+        padding: 0;
+    }
+
+    main .landingpage .header ul a {
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 451px) and (max-width:800px) {
+
+
+    main .landingpage {
+        background-size: 70%;
+    }
+
+    main .landingpage .header ul {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+
+    main .landingpage .header ul li {
+        display: flex;
+        position: relative;
+        max-width: fit-content;
+        margin: 250px 0 0 0;
+        padding: 0;
+    }
+
+    main .landingpage .header ul a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1500px) {
+    main .landingpage .header ul {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+
+    main .landingpage .header ul li {
+        display: flex;
+        position: relative;
+        max-width: fit-content;
+        margin: 400px 0 0;
+        padding: 0;
+    }
+
+    main .landingpage .header ul a {
+        font-size: 25px;
+        padding: 0 50px;
+    }
 }
