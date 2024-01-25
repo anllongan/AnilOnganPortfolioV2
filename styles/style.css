@@ -29,6 +29,19 @@ body{
     font-size: 30px;
 }
 
+.navbar-collapse .nav-link:hover{
+    transform: scale(1);
+}
+
+.navbar-nav{
+    float: right;
+
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    scale: (1.2);
+}
+
 
 .navbar a{
     font-size: 17px;
@@ -50,9 +63,10 @@ body{
 
 
 .navbar .container-fluid button{
-    font-size: 10px;
+    font-size: 15px;
     padding: 3px 5px;
-    background-color: rgba(255, 255, 255, 0.771);
+    border-radius: 50%;
+    background-color: #695757;
 }
 
 
@@ -65,11 +79,16 @@ main .contact p{
     font-size: 30px;
 }
 
+main .contact h3{
+    font-size: 1.75rem;
+    padding: 0 0 2rem 0;
+}
+
 main .contact .container{
     border: 1px solid #6957575b;
     border-radius: 20px;
     width: auto;
-    height: fit-content;
+    height: 350px;
     box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.144);
 }
 
@@ -79,7 +98,7 @@ main .contact .container div{
     display: flex;
     width: auto;
     height: fit-content;
-    margin: auto;
+    margin: 25px;
     padding: 10px;
     transition: 1s ease;
     
