@@ -70,6 +70,57 @@ body{
 }
 
 
+main .portfolio{
+    margin: 50px 100px;
+    width: 90%;
+    height: 600px;
+    display: flexbox;
+    vertical-align: middle;
+}
+
+main .portfolio h3{
+    margin: 50px 0;
+}
+
+
+
+main .portfolio .containerleft{
+    border: 1px solid #6957575b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.144);
+    width: 40%;
+    height: 450px;
+    margin: 1rem 3rem;
+    float: left;
+}
+
+main .portfolio .containerleft h3{
+    text-align: center;
+    margin: 2rem;
+}
+
+main .portfolio .containerleft .item{
+    padding: 0.5rem 2rem;
+    
+    
+}
+
+main .portfolio .containerleft .item a{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+main .portfolio .containerleft .item a:hover{
+    font-size: 18px;
+    color: wheat;
+}
+
+
+
+
 main .contact{
     margin: 10rem 0;
 }
@@ -157,7 +208,12 @@ main .resume .container a{
 .content .container .right {
     margin: 50px 0;
     float: right;
-    width: 40%;
+    width: 50%;
+}
+
+
+.content .container .right p{
+    font-size: 14px;
 }
 
 .content .container .right h3{
@@ -169,6 +225,7 @@ main .resume .container a{
     display: flexbox;
     float: inline-start;
     width: 100%;
+    height: fit-content;
     padding: 10px;
 }
 
@@ -181,11 +238,12 @@ main .resume .container a{
 }
 
 .content .container .bottom .tech div{
+    overflow-y:scroll;
     position: relative;
     display:flex-box;
     width: 200px;
     height: auto;
-    margin: 30px;
+    
 
 }
 
