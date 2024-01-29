@@ -7,7 +7,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black;
     font-family: 'Yeseva One', serif;
     box-sizing: border-box;
@@ -331,13 +331,21 @@ footer p span{
 
 
 @media screen and (max-width:450px) {
+
+    .navbar a{
+        font-size: 10px;
+    }
+
     main .content .container .left img{
-        width: 150px;
+        max-width: 150px;
+        margin: 0;
+        padding: 0;
         height: fit-content;
     }
 
+
     main .content .container .right {
-        width: 200px;
+        width: 50%;
     }
 
     main .content .container .right h3{
@@ -345,7 +353,7 @@ footer p span{
     }
 
     main .content .container .right p{
-        font-size: 9px;
+        font-size: 8px;
     }
 
     main .content .container .bottom h3{
@@ -379,8 +387,95 @@ footer p span{
 
 
     footer p{
+        font-size: 8px;
+    }
+
+    main .portfolio{
+        display: flexbox;
+        max-width: 414px;
+        margin: auto;
+    }
+
+    main .portfolio .containerleft{
+        display:block;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        margin: auto;
+        padding: 0;   
+    }
+
+    main .portfolio .containerleft h3{
+        font-size: 15px;
+    }
+
+    main .portfolio .containerleft .item a{
         font-size: 12px;
     }
+
+    main .portfolio .swiper{
+        display: flexbox;
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .swiper-slide {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 18px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .portfolio .swiper-slide img{
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+    main .contact .container{
+        width: 90%;
+        height: fit-content;
+    }
+    main .contact .container div{
+        display: flexbox;
+        width: 100%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    main .contact .container img{
+        width: 20px;
+        height: auto;
+    }
+
+    main .contact .container div a{
+        font-size: 12px;
+    }
+
+    main .contact .form{
+        width: 70%;
+        font-size: 12px;
+    }
+
+    main .contact #send-btn{
+        display: flex;
+        text-align: center;
+        width: fit-content;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        font-size: 10px;
+        
+    }
+
+
+
+
 }
 
 @media screen and (min-width: 451px) and (max-width:800px){
@@ -441,6 +536,93 @@ footer p span{
     main .contact .container{
         max-width: max-content;
     }
+
+    main .portfolio{
+        display: flexbox;
+        max-width: 414px;
+        margin: auto;
+    }
+
+    main .portfolio .containerleft{
+        display:block;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        margin: auto;
+        padding: 0;   
+    }
+
+    main .portfolio .containerleft h3{
+        font-size: 15px;
+    }
+
+    main .portfolio .containerleft .item a{
+        font-size: 12px;
+    }
+
+    main .portfolio .swiper{
+        display: block;
+        width: 400px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .swiper-slide {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 18px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .portfolio .swiper-slide img{
+        max-width: 100%;
+        height: 270px;
+        object-fit: cover;
+    }
+
+
+    main .contact .container{
+        width: 90%;
+        padding: 20px;
+        height: fit-content;
+    }
+    main .contact .container div{
+        display: flexbox;
+        width: 100%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    main .contact .container img{
+        width: 20px;
+        height: auto;
+    }
+
+    main .contact .container p{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+
+    main .contact .form{
+        width: 40%;
+        height: fit-content;
+        font-size: 12px;
+    }
+
+    main .contact #send-btn{
+        display: flex;
+        text-align: center;
+        width: fit-content;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        font-size: 10px;
+        
+    }
+
 
     footer p{
         font-size: 12px;
