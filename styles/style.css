@@ -337,7 +337,7 @@ footer p span{
     }
 
     main .content .container .left img{
-        max-width: 150px;
+        max-width: 90%;
         margin: 0;
         padding: 0;
         height: fit-content;
