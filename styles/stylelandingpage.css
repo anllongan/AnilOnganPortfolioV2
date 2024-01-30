@@ -6,7 +6,7 @@ body {
     height: auto;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black;
     font-family: 'Yeseva One', serif;
     box-sizing: border-box;
@@ -119,7 +119,6 @@ footer p span {
 
 @media screen and (max-width:450px) {
     body {
-        overflow-x: hidden;
         max-width: 100%;
         height: 100%;
     }
