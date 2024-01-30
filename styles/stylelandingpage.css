@@ -66,8 +66,8 @@ main .header li a:hover {
 main .links{
     display: flex-box;
     position: absolute;
-    top: 360px;
-    left: -97px;
+    top: calc(40%);
+    left: -6%;
     background-color: rgb(165, 162, 162);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -79,10 +79,12 @@ main .links div{
 }
 
 main .links div a{
+    display: flex;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 20px 10px;
-    width: max-content;
+    width: 150px;
+    height: auto;
     float: right;
     background-color: rgb(165, 162, 162);
     justify-content:space-between;
@@ -96,6 +98,7 @@ main .links div a:hover{
 }
 
 main .links div img{
+    
     width: 1.5rem;
     margin-left: 10px;
 }
