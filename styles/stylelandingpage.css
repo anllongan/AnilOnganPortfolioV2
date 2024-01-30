@@ -63,6 +63,45 @@ main .header li a:hover {
     opacity: 1;
 }
 
+main .links{
+    display: flex-box;
+    position: absolute;
+    top: 360px;
+    left: -97px;
+    background-color: rgb(165, 162, 162);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+main .links div{
+    display: flex-box;
+}
+
+main .links div a{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 20px 10px;
+    width: max-content;
+    float: right;
+    background-color: rgb(165, 162, 162);
+    justify-content:space-between;
+    color: wheat;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+main .links div a:hover{
+    transform: translateX(105px);
+}
+
+main .links div img{
+    width: 1.5rem;
+    margin-left: 10px;
+}
+
+
+
 
 footer p {
     
@@ -111,8 +150,10 @@ footer p span {
     main .landingpage .header ul a {
         font-size: 16px;
     }
-
-
+    
+    main .links{
+        display: none;
+    }
 }
 
 
@@ -141,6 +182,11 @@ footer p span {
     main .landingpage .header ul a {
         font-size: 25px;
     }
+
+    main .links{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 800px) and (max-width:1500px) {
@@ -163,4 +209,6 @@ footer p span {
         font-size: 25px;
         padding: 0 50px;
     }
+
+    
 }
