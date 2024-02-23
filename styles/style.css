@@ -65,8 +65,13 @@ body{
 .navbar .container-fluid button{
     font-size: 15px;
     padding: 3px 5px;
-    border-radius: 50%;
+    border-radius: 10px;
     background-color: #695757;
+    transition: 0.1s ease;
+}
+
+.navbar .container-fluid button:active{
+    transform: scale(0.95);
 }
 
 
@@ -265,6 +270,7 @@ main .resume .container a{
 .form input {
     color: white;
     font-size: 15px;
+    border: none;
     box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.144);
     text-transform: initial;
 }
@@ -279,6 +285,7 @@ form textarea {
     box-shadow: 0 0 5px rgb(235, 239, 238);
     background: var(--background-color);
     color: white;
+    border: none;
     margin-bottom: 15px;
     border-radius: 8px;
     text-transform: initial;
