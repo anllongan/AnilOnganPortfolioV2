@@ -39,7 +39,7 @@ body{
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    scale: (1.2);
+    transform: scale(1.2);
 }
 
 
@@ -57,7 +57,7 @@ body{
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #695757;
-    scale: 1.2;
+    transform: scale 1.2;
     
 }
 
@@ -79,7 +79,6 @@ main .portfolio{
     margin: 50px 100px;
     width: 90%;
     height: 600px;
-    display: flexbox;
     vertical-align: middle;
 }
 
@@ -149,7 +148,7 @@ main .contact .container{
 }
 
 main .contact .container div{
-    align-items: start;
+    align-items: center;
     justify-content: center;
     display: flex;
     width: auto;
@@ -183,7 +182,7 @@ main .contact .container div a{
 
 
 main .resume .container{
-    display: flex-box;
+    display: flex;
     margin: auto;
     justify-content: center;
 }
@@ -227,11 +226,10 @@ main .resume .container a{
 }
 
 .content .container .bottom{
-    display: flexbox;
-    float: inline-start;
+    display: grid;
     width: 100%;
-    height: fit-content;
-    padding: 10px;
+    height: auto;
+    padding: 5px;
 }
 
 .content .container .bottom h3{
@@ -245,7 +243,7 @@ main .resume .container a{
 .content .container .bottom .tech div{
     overflow-y:scroll;
     position: relative;
-    display:flex-box;
+    display:grid;
     width: 200px;
     height: auto;
     
@@ -258,7 +256,7 @@ main .resume .container a{
 }
 
 .contact .form {
-    display: flex-box;
+    display: flex;
     position:relative;
     width: 400px;
     height: max-content;
@@ -398,7 +396,7 @@ footer p span{
     }
 
     main .portfolio{
-        display: flexbox;
+        display: flex;
         max-width: 414px;
         margin: auto;
     }
@@ -421,7 +419,7 @@ footer p span{
     }
 
     main .portfolio .swiper{
-        display: flexbox;
+        display: flex;
         width: 300px;
         height: auto;
         margin: auto;
@@ -449,7 +447,7 @@ footer p span{
         height: fit-content;
     }
     main .contact .container div{
-        display: flexbox;
+        display: flex;
         width: 100%;
         margin: auto;
         padding: 10px 0;
@@ -475,7 +473,7 @@ footer p span{
         width: fit-content;
         height: auto;
         margin: auto;
-        padding: auto;
+        padding: 5px 10px;
         font-size: 10px;
         
     }
@@ -545,7 +543,7 @@ footer p span{
     }
 
     main .portfolio{
-        display: flexbox;
+        display: grid;
         max-width: 414px;
         margin: auto;
     }
@@ -597,7 +595,7 @@ footer p span{
         height: fit-content;
     }
     main .contact .container div{
-        display: flexbox;
+        display: flex;
         width: 100%;
         margin: auto;
         padding: 10px 0;
@@ -625,7 +623,7 @@ footer p span{
         width: fit-content;
         height: auto;
         margin: auto;
-        padding: auto;
+        padding: 5px 10px;
         font-size: 10px;
         
     }
